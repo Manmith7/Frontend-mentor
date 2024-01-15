@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color:hsl(47, 88%, 63%);
+      font-family: 'Figtree', sans-serif;
+    }
+    .outerbox{
+      border: 1px solid black;
+      background-color: white;
+      
+      border-radius: 20px;
+      border-right: 20px solid;
+      border-bottom: 20px solid;
+      position: relative;
+      width:400px;
+      padding: 20px;
+      left: 37%;
+      top: 140px;
+    }
+    img{
+      border-radius: 15px;
+    
+  
+    }
+    .second{
+      position: relative;
+      left: 30px;
+    }
+    .first{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .head{
+      border: 1px solid black;
+      margin: 0;
+      padding: 0;
+      width: fit-content;
+      background-color:hsl(47, 88%, 63%);
+      padding: 3px 10px;
+      border-radius: 5px ;
+    }
+    p,h3{
+      margin: 0;
+      padding: 0;
+    }
+    #para{
+      padding-top: 15px;
+    }
+    h2{
+      color:hsl(47, 88%, 63%);
+    }
+    p{
+      font-size: 16px;
+    }
+    .third{
+      display: flex;
+      
+    }
+    .image{
+      padding: 0px 20px;
+    }
+    .name1{
+      position: relative;
+      top: 20px;
+    }
+    .child{
+      position:absolute;
+      top: 10px;
+    }
+    .attribution{
+      position: relative;
+      top: 100px;
+    }
+  </style>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap" rel="stylesheet">
+<body >
+
+  <div class="outerbox">
+    <center>
+    <div class="first">
+      <img src="./assets/images/illustration-article.svg" alt="">
+    </div>
+  </center>
+   <div class="second">
+    <div class="head"><h3>Learning</h3></div>
+   
+    <p id="para">Published 21 Dec 2023</p>
+    <h2>HTML & CSS foundations</h2>
+    <pre style="font-family: 'Times New Roman', Times, serif;">These languages are the backbone of every
+website, defining structure, content, and
+presentation.
+    </pre>
+   </div>
+<div class="third">
+  <div class="image">
+  <img src="./assets/images/image-avatar.webp" alt="">
+</div>
+<div class="name1">
+  Greg Hopper
+</div>
+</div>
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Manmith</a>.
+  </div>
+</body>
+</html>
